@@ -20,7 +20,7 @@ These initial steps remain the same irrespective of the tech stack you are using
 1. **Add the Script**: Insert the following script into the `<head>` of your HTML document:
 
     ```html
-    <script src="https://cdn.jsdelivr.net/gh/bucky-fullerene/featurenest-widget-pub@non-prod/featurenest.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bucky-fullerene/featurenest-widget-pub@prod/featurenest.js"></script>
     ```
 
 2. **Hook the Project ID**: Add the `data-feature-nest-project-id` attribute to any button. For example:
