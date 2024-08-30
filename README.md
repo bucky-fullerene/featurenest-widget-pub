@@ -40,7 +40,7 @@ These initial steps remain the same irrespective of the tech stack you are using
 
     useEffect(() => {
       const script = document.createElement('script');
-      script.src = 'https://cdn.jsdelivr.net/gh/bucky-fullerene/featurenest-widget-pub@non-prod/featurenest.js';
+      script.src = 'https://cdn.jsdelivr.net/gh/bucky-fullerene/featurenest-widget-pub@prod/featurenest.js';
       script.defer = true;
       document.body.appendChild(script);
 
